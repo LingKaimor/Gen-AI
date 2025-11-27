@@ -1,2 +1,0 @@
-# Gen-AI
-CAPSTONE PROJECT.
