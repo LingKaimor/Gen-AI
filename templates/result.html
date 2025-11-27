@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Greeting Result</title>
+<style>
+body { font-family: sans-serif; background-color: #e6f7ff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.container { background-color: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); text-align: center; border-left: 5px solid #4A90E2; }
+h1 { color: #2C3E50; margin-bottom: 20px; }
+p { font-size: 1.1em; color: #555; }
+a { color: #4A90E2; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+a:hover { color: #357ABD; }
+</style>
+</head>
+<body>
+<div class="container">
+<!-- Jinja template syntax: Flask injects the 'name' variable here -->
+<h1>Hello, {{ name }}!</h1>
+<p>Your interactive Python web application is running perfectly.</p>
+<p><a href="/">Go Back Home</a></p>
+</div>
+</body>
+</html>
